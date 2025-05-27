@@ -9,4 +9,22 @@ body {
 
 .App {
   text-align: center;
+  
+}
+
+.votes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.thumb-buttons {
+  display: flex;
+  gap: 10px; /* spacing between thumbs up/down */
+}
+
+.toggle-comments {
+  margin-top: 10px;
+  flex-direction: column;
 }
